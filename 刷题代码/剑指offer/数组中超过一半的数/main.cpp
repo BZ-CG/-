@@ -15,7 +15,7 @@ int MoreThanHalfNum_Solution(vector<int> numbers) {
 
     int visit[max+1];
     memset(visit,0,sizeof(visit));
-    //记录出现的次数
+    //录脟脗录鲁枚脧脰碌脛麓脦脢媒
     for (int i = 0;i < numbers.size();i++) {
         visit[numbers[i]]++;
         if (visit[numbers[i]] > (numbers.size()/2)) {
@@ -27,7 +27,7 @@ int MoreThanHalfNum_Solution(vector<int> numbers) {
     return res;
 }
 
-//map 做法
+//map 鏂规硶
 int MoreThanHalfNum_Solution2(vector<int> numbers) {
     int len = numbers.size();
     int res = 0;
